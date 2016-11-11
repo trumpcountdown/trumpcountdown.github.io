@@ -38,7 +38,12 @@
 /* Main */
 .flip-clock-wrapper {
   font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
-  -webkit-user-select: none; }
+  -webkit-user-select: none; 
+
+
+
+
+}
 
 .flip-clock-meridium {
   background: none !important;
@@ -52,6 +57,14 @@
   position: relative;
   width: 100%;
   margin: 1em;
+
+  position: absolute;
+  top: 735px;
+  left: calc(50% - 330px);
+  //margin-left: -200px;
+  //margin-top: -200px;
+
+
 }
 
 .flip-clock-wrapper:before,
@@ -202,7 +215,7 @@
   position: absolute;
   top: -1.5em;
   right: -86px;
-  color: black;
+  color: white;
   text-shadow: none; }
 
 .flip-clock-divider.minutes .flip-clock-label {
